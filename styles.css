@@ -17,13 +17,14 @@ header {
     padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: center; /* Center header text */
+    justify-content: center;
 }
 
 .header-content {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
 }
 
 .logo img {
@@ -37,7 +38,7 @@ header {
 
 /* Navigation styles */
 nav {
-    background-color: #444;
+    background-color: #555;
     padding: 10px 0;
     text-align: center;
 }
@@ -62,21 +63,24 @@ nav ul li a:hover {
     color: #ccc;
 }
 
-/* Responsive styles */
-@media only screen and (max-width: 768px) {
-    /* Adjust styles for mobile */
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
+/* Image styles */
+.image-container {
+    position: relative;
 }
 
-/* Image styles */
 .full-width-image {
     width: 100%;
     height: auto;
     display: block;
-    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.image-text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000;
 }
 
 /* Body content styles */
