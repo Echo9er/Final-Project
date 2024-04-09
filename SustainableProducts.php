@@ -16,7 +16,7 @@
                 <h1>Sustainable Products</h1>
             </div>
             <div class="login-register">
-                <a href="">Login/Register</a>
+                <a href="login.php">Login/Register</a>
             </div>
         </div>
     </header>
@@ -62,7 +62,6 @@
                     <button class="add-to-cart">Add to Cart</button>
                 </td>
             </tr>
-            <!-- Add more rows for additional products -->
         </table>
     </div>
     
