@@ -8,8 +8,7 @@
 </head>
 <body>
     <div class="header">
-    <div class="logo">
-        <img src="images/logo.webp" alt="Logo">
+        <span>company logo</span>
         <a href="LandingPage.php" class="back-link">back to homepage</a>
     </div>
     <div class="container">
@@ -28,7 +27,6 @@
         </form>
     </div>
     <div class="footer">
-        <span>company logo</span>
         <div>2024 copyright reserved</div>
     </div>
 </body>
