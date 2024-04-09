@@ -114,5 +114,4 @@ function fetchAndDisplayNews() {
     }
   }
   
-  // Call the function to fetch and display news
-  fetchAndDisplayNews();
+  
