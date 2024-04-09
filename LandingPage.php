@@ -10,7 +10,7 @@
     <header>
         <div class="header-content">
             <div class="logo">
-                <img src="logo.webp" alt="Logo">
+                <img src="images/logo.webp" alt="Logo">
             </div>
             <div class="header-text">
                 <h1>Home</h1>
@@ -29,7 +29,7 @@
     </nav>
 
     <div class="image-container">
-      <img src="LandingImage.jpg" alt="Image" class="full-width-image">      <div class="image-text">
+      <img src="images/LandingImage.jpg" alt="Image" class="full-width-image">      <div class="image-text">
       <div class="image-text">
         <h1>Infinity Community</h2>
       </div>
@@ -47,7 +47,7 @@
                   </div>
               </td>
               <td class="profile-item">
-                  <img src="remipilon.jpg" alt="Profile 2">
+                  <img src="images/remipilon.jpg" alt="Profile 2">
                   <div class="profile-info">
                       <h3>Remi Pilon</h3>
                       <p>pilo0199@algonquinlive.com</p>

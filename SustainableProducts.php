@@ -10,7 +10,7 @@
     <header>
         <div class="header-content">
             <div class="logo">
-                <img src="logo.webp" alt="Logo">
+                <img src="images/logo.webp" alt="Logo">
             </div>
             <div class="header-text">
                 <h1>Sustainable Products</h1>
@@ -33,7 +33,7 @@
         <table class="product-table">
             <tr>
                 <td>
-                    <img src="CompostableMicrofiber.webp" alt="Product 1 Image">
+                    <img src="images/CompostableMicrofiber.webp" alt="Product 1 Image">
                 </td>
                 <td>
                     <h3>Compostable Microfiber Cloths</h3>
@@ -43,7 +43,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="RecycleClothe.webp" alt="Product 2 Image">
+                    <img src="images/RecycleClothe.webp" alt="Product 2 Image">
                 </td>
                 <td>
                     <h3>Recycled Clothes</h3>
@@ -53,7 +53,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="BambooToothbrush.webp" alt="Product 3 Image">
+                    <img src="images/BambooToothbrush.webp" alt="Product 3 Image">
                 </td>
                 <td>
                     <h3>Bamboo Toothbrushes</h3>
