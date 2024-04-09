@@ -17,18 +17,21 @@
                 <h1>Sustainable Products</h1>
             </div>
             <div class="login-register">
-                <a href="#">Login/Register</a>
+                <a href="login.php">Login/Register</a>
             </div>
         </div>
     </header>
 
     <nav>
         <ul>
-            <li><a href="LandingPage.html">Home</a></li>
-            <li><a href="SustainableProducts.html">Sustainable Products</a></li>
-            <li><a href="FootPrintCalc.html">Footprint Calculator</a></li>
+            <li><a href="LandingPage.php">Home</a></li>
+            <li><a href="SustainableProducts.php">Sustainable Products</a></li>
+            <li><a href="FootPrintCalc.php">Footprint Calculator</a></li>
+            <li><a href="Cart.php">Cart</a></li>
         </ul>
     </nav>
+
+
     <script src="BuyNow.js"></script>
     <div class="products">
         <table class="product-table">

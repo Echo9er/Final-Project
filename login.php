@@ -9,7 +9,7 @@
 <body>
     <div class="header">
         <span>company logo</span>
-        <a href="LandingPage.html" class="back-link">back to homepage</a>
+        <a href="LandingPage.php" class="back-link">back to homepage</a>
     </div>
     <div class="container">
         <h2>login / register</h2>
