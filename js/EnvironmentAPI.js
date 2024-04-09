@@ -1,5 +1,6 @@
 // Define the API endpoint
-const apiEndpoint = "https://news-about-climate-change-api.herokuapp.com/news";
+const apiEndpoint1 = "https://news-about-climate-change-api.herokuapp.com/news";
+const apiEndpoint2 = "https://news-about-climate-change-api.herokuapp.com/news/:newspaperId";
 
 
 // Define the array of news sources
