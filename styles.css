@@ -236,3 +236,11 @@ body {
     width: 100%; /* Set width to 100% */
     text-align: center; /* Center-align text */
 }
+
+
+.product-table img {
+    width: 150px; /* Set width of images */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure images are displayed as blocks */
+    margin-right: 20px; /* Add some spacing between images and text */
+}
