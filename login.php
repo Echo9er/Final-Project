@@ -33,8 +33,8 @@
             </div>
         </form>
     </div>
-    <div class="footer">
-        <div>2024 copyright reserved</div>
-    </div>
+    <footer>
+        <p>Copyright &copy; 2024 Infinity Community. All rights reserved.</p>
+    </footer>
 </body>
 </html>

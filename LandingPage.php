@@ -118,7 +118,7 @@
 
 
   <footer>
-      <p>Copyright &copy; 2024 Infinity Community. All rights reserved.</p>
+    <p>Copyright &copy; 2024 Infinity Community. All rights reserved.</p>
   </footer>
 
   <script src="newsApi.js"></script>
