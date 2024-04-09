@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="header-content">
-            <div class="logo">
-                <img src="images/logo.webp" alt="Logo">
-            </div>
+    <div class="header">
+    <div class="logo">
+        <img src="images/logo.webp" alt="Logo">
         <a href="LandingPage.php" class="back-link">back to homepage</a>
     </div>
     <div class="container">
