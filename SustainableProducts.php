@@ -10,22 +10,23 @@
     <header>
         <div class="header-content">
             <div class="logo">
-                <img src="logo.webp" alt="Logo">
+                <img src="images/logo.webp" alt="Logo">
             </div>
             <div class="header-text">
                 <h1>Sustainable Products</h1>
             </div>
             <div class="login-register">
-                <a href="#">Login/Register</a>
+                <a href="">Login/Register</a>
             </div>
         </div>
     </header>
 
     <nav>
         <ul>
-            <li><a href="LandingPage.html">Home</a></li>
-            <li><a href="SustainableProducts.html">Sustainable Products</a></li>
-            <li><a href="FootPrintCalc.html">Footprint Calculator</a></li>
+            <li><a href="LandingPage.php">Home</a></li>
+            <li><a href="SustainableProducts.php">Sustainable Products</a></li>
+            <li><a href="FootPrintCalc.php">Footprint Calculator</a></li>
+            <li><a href="Cart.php">Cart</a></li>
         </ul>
     </nav>
 
@@ -33,7 +34,7 @@
         <table class="product-table">
             <tr>
                 <td>
-                    <img src="CompostableMicrofiber.webp" alt="Product 1 Image">
+                    <img src="images/CompostableMicrofiber.webp" alt="Product 1 Image">
                 </td>
                 <td>
                     <h3>Compostable Microfiber Cloths</h3>
@@ -43,7 +44,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="RecycleClothe.webp" alt="Product 2 Image">
+                    <img src="images/RecycleClothe.webp" alt="Product 2 Image">
                 </td>
                 <td>
                     <h3>Recycled Clothes</h3>
@@ -53,7 +54,7 @@
             </tr>
             <tr>
                 <td>
-                    <img src="BambooToothbrush.webp" alt="Product 3 Image">
+                    <img src="images/BambooToothbrush.webp" alt="Product 3 Image">
                 </td>
                 <td>
                     <h3>Bamboo Toothbrushes</h3>
