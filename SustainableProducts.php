@@ -62,7 +62,6 @@
                     <button class="add-to-cart">Add to Cart</button>
                 </td>
             </tr>
-            <!-- Add more rows for additional products -->
         </table>
     </div>
     
