@@ -75,7 +75,7 @@ nav ul li a:hover {
 }
 
 .image-text {
-    position: absolute;
+    position:absolute;
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -83,9 +83,101 @@ nav ul li a:hover {
     color: #000;
 }
 
-/* Body content styles */
-.body-content {
+
+
+
+
+
+/* About Us section styles */
+.about-us {
+    text-align: center;
+    background-color: #eaeaea;    
+}
+
+.profile {
+    display: table;
+    width: 100%;
+}
+
+.profile-item {
+    padding: 10px;
+    text-align: center;
+}
+
+.profile-item img {
+    width: 100px; /* Adjust as needed */
+    border-radius: 50%; /* Makes the image round */
+}
+
+/* Additional styles for text alignment */
+.profile-info h3,
+.profile-info p {
+    margin: 0;
+}
+
+
+/* Best Practices section styles */
+.best-practices {
+    text-align: center;
+    background-color: #eaeaea;  
+}
+
+.practice-table {
+    width: 100%;
+    border-collapse: collapse; /* Merge table borders */
+}
+
+.practice-table td {
+    border: 1px solid #ddd; /* Add borders between cells */
+    padding: 20px; /* Add padding to cells */
+}
+
+.practice h3 {
+    margin-top: 0; /* Remove default margin for consistency */
+}
+
+.practice p {
+    margin-bottom: 0; /* Remove default margin for consistency */
+}
+
+
+/* Environment News section styles */
+.environment-news {
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+.news-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.news-table th, .news-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.news-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.news-table td {
+    text-align: center;
+}
+
+
+/* Content wrapper styles */
+.content-wrapper {
+    position: relative;
+}
+
+/* Environment News section styles */
+.environment-news {
     padding: 20px;
+    background-color: #f9f9f9; /* Example background color */
+    border: 1px solid #ddd; /* Example border */
+    margin-bottom: 60px; /* Adjust according to footer height */
 }
 
 /* Footer styles */
@@ -94,7 +186,16 @@ footer {
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+
+
+
+.product-table img {
+    width: 150px; /* Set width of images */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure images are displayed as blocks */
+    margin-right: 20px; /* Add some spacing between images and text */
 }
