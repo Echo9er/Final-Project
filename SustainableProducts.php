@@ -68,15 +68,14 @@
                 </td>
             </tr>
         </table>
-        <script src="Vote.js"></script>
     </div>
 
     <script src="BuyNow.js"></script>
 
 
-    <div id="footer">
-        <p>&copy; 2024 All rights reserved.</p>
-    </div>
+    <footer>
+        <p>Copyright &copy; 2024 Infinity Community. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
