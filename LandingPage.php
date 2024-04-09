@@ -42,7 +42,7 @@
       <table class="profile">
           <tr>
               <td class="profile-item">
-                  <img src="profile1.jpg" alt="Profile 1">
+                  <img src="images/rodney.jpg" alt="Profile 1">
                   <div class="profile-info">
                       <h3>Rodney Tayebwa</h3>
                       <p>taye0009@algonquinlive.com</p>
