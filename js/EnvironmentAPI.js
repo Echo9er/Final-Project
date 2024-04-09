@@ -1,4 +1,6 @@
-// newsApi.js
+// Define the API endpoint
+const apiEndpoint = "https://news-about-climate-change-api.herokuapp.com/news";
+
 
 // Define the array of news sources
 var newsSources = [
@@ -112,5 +114,4 @@ function fetchAndDisplayNews() {
     }
   }
   
-  // Call the function to fetch and display news
-  fetchAndDisplayNews();
+  

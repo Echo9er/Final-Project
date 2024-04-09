@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample HTML5 Template</title>
+    <title>Healthy Eats</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -120,7 +120,12 @@
   <footer>
       <p>Copyright &copy; 2024 Infinity Community. All rights reserved.</p>
   </footer>
+
   <script src="newsApi.js"></script>
+
+  <script>
+        fetchAndDisplayNews();
+  </script>
 
 </body>
 </html>
