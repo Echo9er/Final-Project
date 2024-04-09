@@ -7,10 +7,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header">
-        <span>company logo</span>
-        <a href="LandingPage.php" class="back-link">back to homepage</a>
-    </div>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/logo.webp" alt="Logo">
+            </div>
+            <div class="login-register">
+                <a href="LandingPage.php">Back to Home</a>
+            </div>
+        </div>
+    </header>    
+
     <div class="container">
         <h2>login / register</h2>
         <form action="includes/formhandler.inc.php" methods="post">
@@ -27,7 +34,6 @@
         </form>
     </div>
     <div class="footer">
-        <span>company logo</span>
         <div>2024 copyright reserved</div>
     </div>
 </body>

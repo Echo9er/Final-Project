@@ -14,7 +14,7 @@ function addToCartAndNotify(itemName, itemPrice) {
     localStorage.setItem('cart', JSON.stringify(cartItems));
 
     alert("Item added to cart!");
-    window.location.href = 'Magazines.html';
+    window.location.href = 'SustainableProducts.html';
 }
 
 // Function to handle the checkout process
@@ -24,7 +24,7 @@ function checkout() {
 
     if (confirm(`Thank you for your purchase! Total amount: $${totalPrice.toFixed(2)}`)) {
         localStorage.removeItem('cart');
-        window.location.href = 'Magazines.html';
+        window.location.href = 'SustainableProducts.html';
     }
 }
 

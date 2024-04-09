@@ -45,6 +45,7 @@
                     <button onclick="addToCartAndNotify('compostable microfiber cloths', 24.99)">Buy Now</button>
                 </td>
             </tr>
+
             <tr>
                 <td>
                     <img src="images/RecycleClothe.webp" alt="Product 2 Image">
@@ -55,6 +56,7 @@
                     <button onclick="addToCartAndNotify('RecycleClothes', 24.99)">Buy Now</button>
                 </td>
             </tr>
+
             <tr>
                 <td>
                     <img src="images/BambooToothbrush.webp" alt="Product 3 Image">
@@ -66,17 +68,12 @@
                 </td>
             </tr>
         </table>
+        <script src="Vote.js"></script>
     </div>
 
     <script src="BuyNow.js"></script>
 
 
-    <form id="checkout-form">
-        <h2>Checkout</h2>
-        <button type="submit">Checkout</button>
-        </form>
-
-    <!-- <?PHP include("footer.php"); ?> -->
     <div id="footer">
         <p>&copy; 2024 All rights reserved.</p>
     </div>
