@@ -7,6 +7,7 @@
     <title>Healthy Eats</title>
     <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="styles.css">
+    <script src="js/AirQualityIndex.js"></script>
 </head>
 <body>
     <!-- Header section -->
@@ -111,28 +112,12 @@
         </table>
     </div>
 
-    <!-- Environment news section -->
+    <!-- Air Quality Index -->
     <div class="environment-news">
-        <h2>Environment News</h2>
-        <!-- News table -->
-        <table class="news-table">
-            <tr>
-                <th>Headline</th>
-                <th>Source</th>
-                <th>Published Date</th>
-            </tr>
-            <!-- Placeholder for news articles -->
-            <tr>
-                <td id="headline1"></td>
-                <td id="source1"></td>
-                <td id="publishedDate1"></td>
-            </tr>
-            <tr>
-                <td id="headline2"></td>
-                <td id="source2"></td>
-                <td id="publishedDate2"></td>
-            </tr>
-        </table>
+        <h2>Air Quality Index</h2>
+        <div id="aqi-container">
+            <!-- AQI will be displayed here -->
+        </div>
     </div>
 
     <!-- Footer section -->
@@ -140,14 +125,6 @@
         <!-- Copyright information -->
         <p>Copyright &copy; 2024 Infinity Community. All rights reserved.</p>
     </div>
-
-    <!-- Include JavaScript file -->
-    <script src="newsApi.js"></script>
-
-    <!-- Call function to fetch and display news -->
-    <script>
-        fetchAndDisplayNews();
-    </script>
 
 </body>
 </html>
