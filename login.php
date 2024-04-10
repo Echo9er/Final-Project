@@ -33,8 +33,8 @@
             </div>
         </form>
     </div>
-    <footer>
+    <div class="footer">
         <p>Copyright &copy; 2024 Infinity Community. All rights reserved.</p>
-    </footer>
+    <div>
 </body>
 </html>

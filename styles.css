@@ -151,8 +151,8 @@ body {
     background: #f4f4f4; /* Set background color */
 }
 
-/* Header and footer styles */
-.header, .footer {
+/* Header styles */
+.header {
     background: #333; /* Set background color */
     color: #fff; /* Set text color */
     padding: 10px 20px; /* Add padding */
@@ -228,15 +228,6 @@ body {
 .btn.login {
     width: 25%; /* Set button width */
 }
-
-/* Footer styles */
-.footer {
-    position: fixed; /* Fix footer position */
-    bottom: 0; /* Set to bottom */
-    width: 100%; /* Set width to 100% */
-    text-align: center; /* Center-align text */
-}
-
 
 .product-table img {
     width: 150px; /* Set width of images */
