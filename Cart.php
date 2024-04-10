@@ -17,7 +17,7 @@
                 <img src="images/logo.webp" alt="Logo">
             </div>
             <div class="header-text">
-                <h1>Home</h1>
+                <h1>Shopping Cart</h1>
             </div>
             <div class="login-register">
                 <a href="login.php">Login/Register</a>
@@ -34,10 +34,6 @@
             <li><a href="Cart.php">Cart</a></li>
         </ul>
     </nav>
-
-    <div id="header">
-        <h1>Shopping Cart</h1>
-    </div>
 
     <div id="cart-items">
         <!-- Cart items will be displayed here -->
