@@ -4,8 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Remi Pilon">
-    <meta name="date" content="2024-03-30">
     <title>Shopping Cart</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="BuyNow.js"></script>
@@ -13,13 +11,19 @@
 
 <body>
 
-    <div id="header">
-        <h1>Remi's Performance Automotive Reviews</h1>
-        <div id="logo">
-            <img src="logo.webp" alt="Logo" class="logo">
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/logo.webp" alt="Logo">
+            </div>
+            <div class="header-text">
+                <h1>Home</h1>
+            </div>
+            <div class="login-register">
+                <a href="login.php">Login/Register</a>
+            </div>
         </div>
-        <p>Driving Innovation</p>
-    </div>
+    </header>
 
     
     <nav>
@@ -53,7 +57,6 @@
     <script src="BuyNow.js"></script>
 
 
-    <?PHP include("footer.php"); ?>
     <div id="footer">
         <p>&copy; 2024 Remi's Performance Automotive Reviews. All rights reserved.</p>
     </div>
