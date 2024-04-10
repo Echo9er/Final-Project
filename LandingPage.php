@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Define document metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthy Eats</title>
+    <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header section -->
     <header>
         <div class="header-content">
+            <!-- Logo -->
             <div class="logo">
                 <img src="images/logo.webp" alt="Logo">
             </div>
+            <!-- Title -->
             <div class="header-text">
                 <h1>Home</h1>
             </div>
+            <!-- Login/Register link -->
             <div class="login-register">
                 <a href="login.php">Login/Register</a>
             </div>
         </div>
     </header>
 
-
+    <!-- Navigation menu -->
     <nav>
         <ul>
+            <!-- Navigation links -->
             <li><a href="LandingPage.php">Home</a></li>
             <li><a href="SustainableProducts.php">Sustainable Products</a></li>
             <li><a href="FootPrintCalc.php">Footprint Calculator</a></li>
@@ -31,101 +38,116 @@
         </ul>
     </nav>
 
+    <!-- Image section -->
     <div class="image-container">
-      <img src="images/LandingImage.jpg" alt="Image" class="full-width-image">      <div class="image-text">
-      <div class="image-text">
-        <h1>Infinity Community</h2>
-      </div>
+        <!-- Image -->
+        <img src="images/LandingImage.jpg" alt="Image" class="full-width-image">
+        <!-- Image text -->
+        <div class="image-text">
+            <h1>Infinity Community</h1>
+        </div>
     </div>
     
+    <!-- About us section -->
     <div class="about-us">
-      <h2>About Us</h2>
-      <table class="profile">
-          <tr>
-              <td class="profile-item">
-                  <img src="images/rodney.jpg" alt="Profile 1">
-                  <div class="profile-info">
-                      <h3>Rodney Tayebwa</h3>
-                      <p>taye0009@algonquinlive.com</p>
-                  </div>
-              </td>
-              <td class="profile-item">
-                  <img src="images/remipilon.jpg" alt="Profile 2">
-                  <div class="profile-info">
-                      <h3>Remi Pilon</h3>
-                      <p>pilo0199@algonquinlive.com</p>
-                  </div>
-              </td>
-              <td class="profile-item">
-                  <img src="images/carol.jpg" alt="Profile 3">
-                  <div class="profile-info">
-                      <h3>Carol Kassabaki</h3>
-                      <p>kass0094@algonquinlive.com</p>
-                  </div>
-              </td>
-              <td class="profile-item">
-                  <img src="images/ikram.jpg" alt="Profile 4">
-                  <div class="profile-info">
-                      <h3>Ikram Abushaban</h3>
-                      <p>abus0059@algonquinlive.com</p>
-                  </div>
-              </td>
-          </tr>
-      </table>
+        <h2>About Us</h2>
+        <!-- Profiles table -->
+        <table class="profile">
+            <tr>
+                <!-- Profile 1 -->
+                <td class="profile-item">
+                    <img src="images/rodney.jpg" alt="Profile 1">
+                    <div class="profile-info">
+                        <h3>Rodney Tayebwa</h3>
+                        <p>taye0009@algonquinlive.com</p>
+                    </div>
+                </td>
+                <!-- Profile 2 -->
+                <td class="profile-item">
+                    <img src="images/remipilon.jpg" alt="Profile 2">
+                    <div class="profile-info">
+                        <h3>Remi Pilon</h3>
+                        <p>pilo0199@algonquinlive.com</p>
+                    </div>
+                </td>
+                <!-- Profile 3 -->
+                <td class="profile-item">
+                    <img src="images/carol.jpg" alt="Profile 3">
+                    <div class="profile-info">
+                        <h3>Carol Kassabaki</h3>
+                        <p>kass0094@algonquinlive.com</p>
+                    </div>
+                </td>
+                <!-- Profile 4 -->
+                <td class="profile-item">
+                    <img src="images/ikram.jpg" alt="Profile 4">
+                    <div class="profile-info">
+                        <h3>Ikram Abushaban</h3>
+                        <p>abus0059@algonquinlive.com</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
     </div>
-  
 
-  <div class="best-practices">
-    <h2>Best Practices</h2>
-    <table class="practice-table">
-        <tr>
-            <td class="practice">
-                <h3>Reduce, Reuse, Recycle</h3>
-                <p>Minimize waste generation by reducing consumption, reusing items whenever possible, and recycling materials.</p>
-            </td>
-            <td class="practice">
-                <h3>Conserve Energy</h3>
-                <p>Implement energy-saving measures such as using energy-efficient appliances, turning off lights when not in use, and optimizing heating and cooling systems.</p>
-            </td>
-            <td class="practice">
-                <h3>Promote Sustainable Transportation</h3>
-                <p>Encourage the use of public transportation, cycling, walking, and carpooling to reduce greenhouse gas emissions from vehicles.</p>
-            </td>
-        </tr>
-    </table>
-  </div>
+    <!-- Best practices section -->
+    <div class="best-practices">
+        <h2>Best Practices</h2>
+        <table class="practice-table">
+            <tr>
+                <td class="practice">
+                    <h3>Reduce, Reuse, Recycle</h3>
+                    <p>Minimize waste generation by reducing consumption, reusing items whenever possible, and recycling materials.</p>
+                </td>
+                <td class="practice">
+                    <h3>Conserve Energy</h3>
+                    <p>Implement energy-saving measures such as using energy-efficient appliances, turning off lights when not in use, and optimizing heating and cooling systems.</p>
+                </td>
+                <td class="practice">
+                    <h3>Promote Sustainable Transportation</h3>
+                    <p>Encourage the use of public transportation, cycling, walking, and carpooling to reduce greenhouse gas emissions from vehicles.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
 
-  <div class="environment-news">
-    <h2>Environment News</h2>
-    <table class="news-table">
-        <tr>
-            <th>Headline</th>
-            <th>Source</th>
-            <th>Published Date</th>
-        </tr>
-        <tr>
-            <td id="headline1"></td>
-            <td id="source1"></td>
-            <td id="publishedDate1"></td>
-        </tr>
-        <tr>
-            <td id="headline2"></td>
-            <td id="source2"></td>
-            <td id="publishedDate2"></td>
-        </tr>
-    </table>
-  </div>
+    <!-- Environment news section -->
+    <div class="environment-news">
+        <h2>Environment News</h2>
+        <!-- News table -->
+        <table class="news-table">
+            <tr>
+                <th>Headline</th>
+                <th>Source</th>
+                <th>Published Date</th>
+            </tr>
+            <!-- Placeholder for news articles -->
+            <tr>
+                <td id="headline1"></td>
+                <td id="source1"></td>
+                <td id="publishedDate1"></td>
+            </tr>
+            <tr>
+                <td id="headline2"></td>
+                <td id="source2"></td>
+                <td id="publishedDate2"></td>
+            </tr>
+        </table>
+    </div>
 
-
-  <div class="footer">
+    <!-- Footer section -->
+    <div class="footer">
+        <!-- Copyright information -->
         <p>Copyright &copy; 2024 Infinity Community. All rights reserved.</p>
-    <div>
+    </div>
 
-  <script src="newsApi.js"></script>
+    <!-- Include JavaScript file -->
+    <script src="newsApi.js"></script>
 
-  <script>
+    <!-- Call function to fetch and display news -->
+    <script>
         fetchAndDisplayNews();
-  </script>
+    </script>
 
 </body>
 </html>
