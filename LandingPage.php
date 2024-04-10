@@ -57,14 +57,14 @@
                   </div>
               </td>
               <td class="profile-item">
-                  <img src="profile3.jpg" alt="Profile 3">
+                  <img src="images/carol.jpg" alt="Profile 3">
                   <div class="profile-info">
                       <h3>Carol Kassabaki</h3>
                       <p>kass0094@algonquinlive.com</p>
                   </div>
               </td>
               <td class="profile-item">
-                  <img src="profile4.jpg" alt="Profile 4">
+                  <img src="images/ikram.jpg" alt="Profile 4">
                   <div class="profile-info">
                       <h3>Ikram Abushaban</h3>
                       <p>abus0059@algonquinlive.com</p>
