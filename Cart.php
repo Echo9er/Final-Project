@@ -13,7 +13,7 @@
     <!-- Link to external stylesheet -->
     <link rel="stylesheet" type="text/css" href="styles.css">
     <!-- Include external JavaScript file -->
-    <script src="BuyNow.js"></script>
+    <script src="js/buynow.js"></script>
 </head>
 
 <body>
@@ -42,39 +42,21 @@
             <!-- Navigation links -->
             <li><a href="LandingPage.php">Home</a></li>
             <li><a href="SustainableProducts.php">Sustainable Products</a></li>
-            <li><a href="FootPrintCalc.php">Footprint Calculator</a></li>
             <li><a href="Cart.php">Cart</a></li>
         </ul>
     </nav>
 
     <!-- Display area for cart items -->
-    <div id="cart-items">
+    <div id="cart-content">
         <!-- Cart items will be displayed here -->
     </div>
 
-    <!-- Include JavaScript file -->
-    <script src="BuyNow.js"></script>
-
-    <!-- Checkout form -->
-    <form id="checkout-form">
-        <h2>Checkout</h2>
-
-        <!-- Postal code input field -->
-        <label for="postal-code">Postal Code:</label>
-        <input type="text" id="postal-code" name="postal-code" required>
-
-        <!-- Checkout button -->
-        <button type="submit">Checkout</button>
-    </form>
-
-    <!-- Include JavaScript file -->
-    <script src="BuyNow.js"></script>
 
     <!-- Footer section -->
-    <div id="footer">
+    <div class="footer">
         <!-- Copyright information -->
-        <p>&copy; 2024 Remi's Performance Automotive Reviews. All rights reserved.</p>
-    </div>
+        <p>Copyright &copy; 2024 Infinity Community. All rights reserved.</p>
+    <div>
 
 </body>
 

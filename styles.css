@@ -253,3 +253,12 @@ body {
 .profile-item img:hover {
     transform: scale(1.2); /* Scale the image to 120% on hover */
 }
+
+.notification {
+    display: none; /* Hide notification by default */
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    text-align: center; /* Center-align text */
+    padding: 15px; /* Add padding */
+    margin-top: 10px; /* Add top margin */
+}

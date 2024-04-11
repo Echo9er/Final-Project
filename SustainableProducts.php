@@ -13,7 +13,8 @@
     <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="styles.css">
     <!-- Link to external JavaScript file for Buy Now functionality -->
-    <script src="BuyNow.js"></script>
+    <script src="js/buynow.js"></script>
+    
 </head>
 <body>
     <!-- Header section -->
@@ -63,6 +64,7 @@
                     <p>Our compostable microfiber cloths are made from natural and sustainable materials that break down easily in compost systems. They offer superior cleaning performance while being environmentally friendly, helping you reduce your carbon footprint.</p>
                     <!-- Button to add Product 1 to cart -->
                     <button onclick="addToCartAndNotify('compostable microfiber cloths', 24.99)">Buy Now</button>
+                    <div class="notification">Item added to cart</div>
                 </td>
             </tr>
 
@@ -77,6 +79,7 @@
                     <p>Our recycled clothes are made from post-consumer and post-industrial waste materials, such as plastic bottles and textile scraps. By giving new life to discarded materials, we help minimize landfill waste and conserve valuable resources, all while offering stylish and eco-friendly clothing options.</p>
                     <!-- Button to add Product 2 to cart -->
                     <button onclick="addToCartAndNotify('RecycleClothes', 24.99)">Buy Now</button>
+                    <div class="notification">Item added to cart</div>
                 </td>
             </tr>
 
@@ -91,6 +94,7 @@
                     <p>Say goodbye to plastic toothbrushes and switch to our eco-friendly bamboo toothbrushes. Made from sustainable bamboo, these toothbrushes are biodegradable and compostable, offering a sustainable alternative to traditional plastic toothbrushes. Help reduce plastic pollution and promote oral health with our environmentally conscious toothbrushes.</p>
                     <!-- Button to add Product 3 to cart -->
                     <button onclick="addToCartAndNotify('toothbrushes', 24.99)">Buy Now</button>
+                    <div class="notification">Item added to cart</div>
                 </td>
             </tr>
         </table>
