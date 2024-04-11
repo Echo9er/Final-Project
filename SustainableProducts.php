@@ -37,13 +37,8 @@
     <!-- Navigation menu -->
     <nav>
         <ul>
-            <!-- Home link -->
             <li><a href="LandingPage.php">Home</a></li>
-            <!-- Sustainable Products link -->
             <li><a href="SustainableProducts.php">Sustainable Products</a></li>
-            <!-- Footprint Calculator link -->
-            <li><a href="FootPrintCalc.php">Footprint Calculator</a></li>
-            <!-- Cart link -->
             <li><a href="Cart.php">Cart</a></li>
         </ul>
     </nav>

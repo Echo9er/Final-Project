@@ -161,7 +161,12 @@ body {
 
 /* Styles for elements within header and footer */
 .header span, .footer span {
-    float: left; /* Align span elements to the left */
+    float: center; /* Align span elements to the left */
+}
+
+.footer {
+    text-align: center; /* Center align the content */
+    padding: 20px; /* Example padding */
 }
 
 /* Styles for back link */

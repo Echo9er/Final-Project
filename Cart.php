@@ -42,7 +42,6 @@
             <!-- Navigation links -->
             <li><a href="LandingPage.php">Home</a></li>
             <li><a href="SustainableProducts.php">Sustainable Products</a></li>
-            <li><a href="FootPrintCalc.php">Footprint Calculator</a></li>
             <li><a href="Cart.php">Cart</a></li>
         </ul>
     </nav>
