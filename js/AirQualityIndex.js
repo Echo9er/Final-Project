@@ -20,7 +20,7 @@ fetch(`https://api.waqi.info/feed/ottawa/?token=${token}`)
             
             // Display AQI on HTML page
             const aqiContainer = document.getElementById('aqi-container');
-            aqiContainer.textContent = `Air Quality Index for Ottawa: ${aqi}`;
+            aqiContainer.textContent = `Air Quality Index for Ottawa: ${aqi}\n`;
         } else {
             console.error('Error:', data.message);
         }
