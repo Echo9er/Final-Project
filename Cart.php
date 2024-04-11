@@ -47,7 +47,7 @@
     </nav>
 
     <!-- Display area for cart items -->
-    <div id="cart-content">
+    <div id="cart-item">
         <!-- Cart items will be displayed here -->
     </div>
 
