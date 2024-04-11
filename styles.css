@@ -160,7 +160,7 @@ body {
 }
 
 /* Styles for elements within header and footer */
-.header span, .footer span {
+.header span {
     float: center; /* Align span elements to the left */
 }
 
