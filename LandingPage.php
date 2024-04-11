@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -8,7 +8,7 @@
     <!-- Define document metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Healthy Eats</title>
+    <title>Infinity Community</title>
     <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="styles.css">
     <script src="js/AirQualityIndex.js"></script>
