@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -119,6 +123,10 @@
             <!-- AQI will be displayed here -->
         </div>
     </div>
+
+    <div id="clock"></div>
+
+    <script src="js/clock.js"></script>
 
     <!-- Footer section -->
     <div class="footer">

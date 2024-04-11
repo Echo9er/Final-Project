@@ -1,3 +1,47 @@
+<?php
+
+session_start();
+if($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username= $_POST["Username"];
+    $pwd= $_POST["pwd"];
+
+    if(!empty($username)&&!empty($pwd)) {
+        include("connect.php");
+
+        $query = $conn->prepare("SELECT * FROM users WHERE username=$username AND pwd=$pwd");
+        $query->bind_param("ss",$username, $pwd);
+        $query->execute();
+        $result = $query->get_result();
+
+        if($result->num_rows > 0) {
+            $row = $result->fetch_assoc();
+            $_SESSION["id"] = $row["id"];
+            $_SESSION["username"] = $row["username"];
+
+            header("Location: LandingPage.php");
+            exit();
+
+
+        }else {
+            echo "Invalid username or password.";
+        }
+
+
+        $conn->close();
+
+    }   else{
+    
+        echo"Username and password are required.";
+    }
+    
+
+}
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +71,7 @@
     <div class="container">
         <h2>login / register</h2>
         <!-- Login/Register form -->
-        <form action="includes/formhandler.inc.php" methods="post">
+        <form action="login.php" methods="post">
             <!-- Username field -->
             <div class="form-group">
                 <input type="text" id="Username" placeholder="Username">

@@ -235,3 +235,21 @@ body {
     display: block; /* Ensure images are displayed as blocks */
     margin-right: 20px; /* Add some spacing between images and text */
 }
+
+#clock {
+    font-size: 48px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.profile-item img {
+    width: 100px; /* Initial width of the images */
+    border-radius: 50%; /* Makes the image round */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+/* Scale up the image on hover */
+.profile-item img:hover {
+    transform: scale(1.2); /* Scale the image to 120% on hover */
+}

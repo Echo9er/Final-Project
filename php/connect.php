@@ -2,7 +2,7 @@
     $DATABSE_HOST = "localhost";
     $DATABSE_USER = "root";
     $DATABSE_PSW = "";
-    $DATABASE_NAME = "resn_db";
+    $DATABASE_NAME = "infinity_community";
 
     $connection = new MYSQLi($DATABSE_HOST, $DATABSE_USER, $DATABSE_PSW, $DATABASE_NAME);
     
