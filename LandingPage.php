@@ -1,3 +1,7 @@
+
+<!-- Worked on by Remi Pilon -->
+
+
 <?php
 session_start();
 ?>

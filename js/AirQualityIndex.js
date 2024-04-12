@@ -1,3 +1,6 @@
+/* <!-- Worked on by Rodney Tayebwa --> */
+
+
 const token = '4285d8848c36883740cf2a41f30d9b590ae1aefd'; // Your API token
 
 // Make a GET request to the API endpoint

@@ -1,3 +1,6 @@
+/* <!-- Worked on by Remi pilon --> */
+
+
 <?php
 
     // session_start(); // Beging a users session

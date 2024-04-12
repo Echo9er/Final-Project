@@ -1,3 +1,6 @@
+/* <!-- Worked on by Remi pilon --> */
+
+
 <?php
     $DATABSE_HOST = "localhost";
     $DATABSE_USER = "root";

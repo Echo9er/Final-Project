@@ -1,3 +1,7 @@
+/* <!-- Worked on by Rodney Tayebwa --> */
+
+
+
 // function addToCartAndNotify(productName, price) {
 //     // Add product to cart logic here
     

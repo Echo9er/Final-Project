@@ -1,3 +1,6 @@
+/* <!-- Worked on by Rodney Tayebwa --> */
+
+
 // Function to update the clock
 function updateClock() {
     // Get the current date and time
